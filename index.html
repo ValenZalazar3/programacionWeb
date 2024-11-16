@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <section id='hero'>
+        <div
+          id='default-carousel'
+          class='relative w-full'
+          data-carousel='slide'
+        >
+          <!-- Carousel wrapper -->
+          <div
+            class='relative overflow-hidden rounded-md h-[11rem] sm:h-[14rem] md:h-[18rem] lg:h-[22rem] xl:h-96 2xl:h-[33rem]'
+          >
+            <!-- Item 1 -->
+            <div
+              class='hidden duration-700 ease-in-out'
+              data-carousel-item
+            >
+              <img
+                src='./public/abanner.webp'
+                class='absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
+                alt='...'
+              />
+            </div>
+            <div
+              class='hidden duration-700 ease-in-out'
+              data-carousel-item
+            >
+              <img
+                src='./public/banner1.webp'
+                class='absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
+                alt='...'
+              />
+            </div>
+            <div
+              class='hidden duration-700 ease-in-out'
+              data-carousel-item
+            >
+              <img
+                src='./public/banner2.webp'
+                class='absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
+                alt='...'
+              />
+            </div>
+            <div
+              class='hidden duration-700 ease-in-out'
+              data-carousel-item
+            >
+              <img
+                src='./public/banner3.webp'
+                class='absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
+                alt='...'
+              />
+            </div>
+            <div
+              class='hidden duration-700 ease-in-out'
+              data-carousel-item
+            >
+              <img
+                src='./public/banner4.webp'
+                class='absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
+                alt='...'
+              />
+            </div>
+            <div
+              class='hidden duration-700 ease-in-out'
+              data-carousel-item
+            >
+              <img
+                src='./public/banner5.webp'
+                class='absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
+                alt='...'
+              />
+            </div>
+          </div>
+          <!-- Slider indicators -->
+      
+          <!-- Slider controls -->
+          <button
+            type='button'
+            class='absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none'
+            data-carousel-prev
+          >
+            <span
+              class='inline-flex items-center justify-center w-10 h-10 rounded-full group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none'
+            >
+              <svg
+                class='w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180'
+                aria-hidden='true'
+                xmlns='http://www.w3.org/2000/svg'
+                fill='none'
+                viewBox='0 0 6 10'
+              >
+                <path
+                  stroke='currentColor'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                  stroke-width='2'
+                  d='M5 1 1 5l4 4'
+                ></path>
+              </svg>
+              <span class='sr-only'>Previous</span>
+            </span>
+          </button>
+          <button
+            type='button'
+            class='absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none'
+            data-carousel-next
+          >
+            <span
+              class='inline-flex items-center justify-center w-10 h-10 rounded-full group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none'
+            >
+              <svg
+                class='w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180'
+                aria-hidden='true'
+                xmlns='http://www.w3.org/2000/svg'
+                fill='none'
+                viewBox='0 0 6 10'
+              >
+                <path
+                  stroke='currentColor'
+                  stroke-linecap='round'
+                  stroke-linejoin='round'
+                  stroke-width='2'
+                  d='m1 9 4-4-4-4'
+                ></path>
+              </svg>
+              <span class='sr-only'>Next</span>
+            </span>
+          </button>
+        </div>
+      </section>
+      <section
+  class="bg-cover bg-[url('/local.webp')] bg-gray-700 bg-blend-multiply"
+  id='aboutUs'
+>
+  <div class='px-4 mx-auto max-w-screen-xl text-center py-16 lg:py-16'>
+    <h1
+      class='mb-4 text-2xl tracking-tight leading-none text-white lg:text-5xl'
+    >
+      About us
+    </h1>
+    <p class='mb-4 text-md font-normal text-gray-300 lg:text-xl sm:px-10'>
+      AG&JA is a company established by dedicated and passionate experts with
+      more than 25 years of experience in the Gemology and Jewelry Industry.
+    </p>
+    <p class='mb-4 text-md font-normal text-gray-300 lg:text-xl sm:px-10'>
+      Our GIA Graduate Gemologist proceeds applying scientific based tests
+      combined with trained optic inclusion recognition and classification.
+    </p>
+    <p class='mb-4 text-md font-normal text-gray-300 lg:text-xl sm:px-10'>
+      Our Accredited Jewelry Professional carefully identifies the metal used to
+      manufacture the piece and values the craftsmanship employed in the whole
+      process, from the designing to the final cleaning and polishing.
+    </p>
+    <p class='mb-4 text-md font-normal text-gray-300 lg:text-xl sm:px-10'>
+      This report provides an opinion by AG&JA, and neither AG&JA’s original
+      client nor any purchaser of the article shall rely on this report as a
+      guarantee or warranty. Opinions provided by third-party laboratories may
+      vary depending on when, how and by whom the article was examined.
+    </p>
+    <p class='mb-4 text-md font-normal text-gray-300 lg:text-xl sm:px-10'>
+      Technologies employed in treatments, processing and synthesis are
+      continuously evolving, and hence it may not always possible to determine
+      the origin of the article using the then-latest available techniques.
+    </p>
+    <p class='mb-4 text-md font-normal text-gray-300 lg:text-xl sm:px-10'>
+      Neither AG&JA nor any of its employees shall, at any time, be liable for
+      any difference of opinion or discrepancy which may result from the
+      application of other assessment and/or identification methods, tools or
+      techniques.
+    </p>
+    <p
+      class='mb-4 text-md font-normal text-gray-300 lg:text-xl sm:px-10 lg:px-32'
+    >
+      AG&JA has provided this report for a small fee compared to actual and
+      potential value of the subject article and has no financial interest in
+      the sale/purchase of the item described in this report.
+    </p>
+    <div
+      class='flex flex-col mt-10 -mb-8 sm:flex-row sm:justify-center sm:space-y-0'
+    >
+      <a
+        href='https://sofia.jewelershowcase.com/'
+        target='_blank'
+        rel='noopener noreferrer'
+        class='inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400'
+      >
+        Learn more
+      </a>
+    </div>
+  </div>
+</section>
+
+<div
+  class='py-10'
+  id='services'
+>
+  <div class='flex justify-center mb-16 mt-10'>
+    <a
+      href='#hero'
+      class='flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse'
+    >
+      <img
+        src='./public/favicon.webp'
+        class='h-8 md:h-14'
+        alt='Logo'
+      />
+      <h1 class='self-center text-xl md:text-4xl whitespace-nowrap text-white'>
+        American Gem & Jewelry Association
+      </h1>
+    </a>
+  </div>
+  <div>
+    <h1 class='text-2xl lg:text-4xl text-center text-white my-5'>
+      Our Services
+    </h1>
+    <p class='text-md lg:text-lg text-center text-white my-5 px-2'>
+      Discover our professional <strong class='text-[#ffd277]'
+        >appraisal service</strong
+      > and exclusive collection of <strong class='text-[#ffd277]'
+        >gems and jewelry.</strong
+      >
+    </p>
+  </div>
+  <div
+    class='flex flex-col md:flex-row justify-center items-center gap-10 lg:gap-20 max-w-screen-xl mx-auto'
+  >
+    <!-- Item 1 -->
+    <div class='text-white rounded-lg'>
+      <a
+        href='http://https://sofia.jewelershowcase.com/'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        <img
+          src='./publicappraisals.webp'
+          alt='Necklace'
+          class='w-96 rounded-lg img1'
+        />
+      </a>
+      <h2 class='mt-14 mb-2 text-lg font-semibold text-center titulo'>
+        Appraisals
+      </h2>
+
+      <a
+        href='https://wa.me/+19547012375?text=Hello%2C%20I%20would%20like%20to%20get%20more%20information%20about%20your%20appraisal%20services'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        <button
+          class='Btn Btn1 mt-4 mb-9 bg-[#BEBEBE] text-black py-2 px-4 rounded block mx-auto'
+        >
+        </button>
+      </a>
+    </div>
+    <!-- Item 2 -->
+    <div class='text-white rounded-lg'>
+      <a
+        href='https://sofia.jewelershowcase.com/'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        <img
+          src='./publicdiamondRing.webp'
+          alt='Rings'
+          class='w-96 rounded-lg img1'
+        />
+      </a>
+      <h2
+        class='text-lg mt-16 lg:mt-[3.5rem] font-semibold text-center titulodos'
+      >
+        Jewelry
+      </h2>
+      <a
+        href='https://sofia.jewelershowcase.com/'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
+        <button
+          class='Btn Btn2 mt-3 mb-9 bg-[#B9B8B5] text-black py-2 px-4 rounded block mx-auto'
+        >
+        </button>
+      </a>
+    </div>
+  </div>
+</div>
+<footer class='bg-white rounded-sm shadow dark:bg-gray-900 w-full'>
+    <div class='w-full max-w-screen-xl mx-auto p-4 md:py-8'>
+      <div class='sm:flex sm:items-center sm:justify-between'>
+        <div class='flex justify-center md:justify-start'>
+          <a
+            href='#hero'
+            class='flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse'
+          >
+            <img
+              src='./public/favicon.webp'
+              class='h-8'
+              alt='Logo'
+            />
+            <span
+              class='self-center text-lg md:text-2xl font-semibold whitespace-nowrap dark:text-white'
+            >
+              American Gem & Jewelry Association
+            </span>
+          </a>
+        </div>
+        <ul
+          class='flex flex-wrap justify-center items-center gap-5 my-10 lg:mr-20 text-sm md:text-lg font-medium text-gray-500 sm:mb-0 dark:text-gray-400'
+        >
+          <li>
+            <a
+              href='https://wa.me/+19547012375?text=Hello%2C%20I%20would%20like%20to%20get%20more%20information%20about%20your%20appraisal%20services'
+              target='_blank'
+              rel='noopener noreferrer'
+              class='scroll-link hover:underline me-10 md:me-16'
+            >
+              <WhatsApp class='w-8 h-8' />
+            </a>
+          </li>
+          <li>
+            <a
+              href='https://www.instagram.com/sofiagandj?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr'
+              target='_blank'
+              rel='noopener noreferrer'
+              class='scroll-link hover:underline me-10 md:me-16'
+            >
+              <img
+                src='./public/icons/instagram.svg'
+                class='w-8 h-8'
+                alt='Instagram image'
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href='mailto:infosofiagandj@gmail.com'
+              target='_blank'
+              rel='noopener noreferrer'
+              class='hover:underline'
+            >
+              <Gmail class='-mt-6 sm:-mt-8 w-8 h-8' />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr class='my-3 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8' />
+    <span class='block text-sm text-gray-500 sm:text-center dark:text-gray-400'>
+      © 2024 <a
+        href='https://flowbite.com/'
+        class='hover:underline'
+      >
+        American Gem & Jewelry Association.
+      </a>
+    </span>
+  </footer>
+  
+
+</body>
+</html>
