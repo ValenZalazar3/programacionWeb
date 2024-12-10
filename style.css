@@ -91,6 +91,7 @@
   .services-logo-link {
     margin-bottom: 0;
   }
+ 
 }
 
 .services-logo-link > *:not(:last-child) {
@@ -118,6 +119,7 @@
   .logo-text {
     font-size: 2.25rem;
   }
+  
 }
 
 .services-title {
@@ -133,6 +135,8 @@
     font-size: 2.25rem;
   }
 }
+
+
 
 .services-description {
   font-size: 1rem;
@@ -153,6 +157,12 @@
 .highlight {
   color: #ffd277;
 }
+.services-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .services-items-container {
   display: flex;
@@ -160,9 +170,7 @@
   justify-content: center;
   align-items: center;
   gap: 2.5rem;
-  max-width: 1280px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 60%;
 }
 
 @media (min-width: 768px) {
@@ -180,10 +188,14 @@
 .service-item {
   color: #ffffff;
   border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .service-image {
-  width: 24rem;
+  width: 90%;
   border-radius: 0.5rem;
 }
 
@@ -464,31 +476,32 @@ a {
   text-decoration: underline;
 }
 
-.seccion-contacto {
+.contact-section {
   padding: 50px 0;
   background-color: #f9f9f9;
+  width: 100%;
 }
 
-.seccion-contacto h1 {
+.contact-section h1 {
   text-align: center;
   margin-bottom: 40px;
 }
 
-.formulario-contacto {
-  max-width: 600px;
+.contact-form {
+  width: 90%;
   margin: 0 auto;
 }
 
-.formulario-contacto .form-label {
+.contact-form .form-label {
   font-weight: bold;
 }
 
-.formulario-contacto .btn-primary {
+.contact-form .btn-primary {
   background-color: #007bff;
   border-color: #007bff;
 }
 
-.formulario-contacto .btn-primary:hover {
+.contact-form .btn-primary:hover {
   background-color: #0056b3;
   border-color: #004080;
 }
@@ -507,6 +520,7 @@ a {
   border: none;
   background-color: transparent;
 }
+
 
 .seccion-testimonios .card-body {
   background-color: #ffffff;
@@ -527,28 +541,35 @@ a {
   color: #333333;
 }
 
-.seccion-ultimas-novedades {
+.latest-releases-section {
   padding: 50px 0;
   background-color: #ffffff;
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
 }
 
-.seccion-ultimas-novedades h1 {
+.latest-releases-section h1 {
   font-size: 2.5em;
   margin-bottom: 40px;
 }
 
-.novedad-item {
+.release-item {
   text-align: center;
   margin-bottom: 30px;
 }
 
-.novedad-item img {
+.release-item img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
 }
 
-.novedad-titulo {
+.release-title {
   margin-top: 15px;
   font-size: 1.2em;
   color: #333333;
